@@ -1,0 +1,68 @@
+
+@media all and (orientation:portrait)
+{
+    
+    .time-table
+    {
+        
+        
+        font-family: 'Montserrat', sans-serif;
+        
+
+    }    
+    .text
+    {
+        width: 25%;
+    }
+
+    .time
+{
+width: 50%;
+
+}
+.place
+{
+    width: 25%;
+}
+.place-n-time
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.days
+{
+   margin: .5rem;
+    justify-content: space-around;
+}
+
+
+}
+
+@media all and (orientation:landscape) 
+{
+    .time-table
+    {
+        
+        
+        font-family: 'Roboto', sans-serif;
+        
+        
+        display: flex;
+          
+    
+    }
+    .days
+    {
+       display: flex;
+        justify-content: space-around;
+    }
+    #Day
+    {
+        width: 15%;
+
+}
+}
